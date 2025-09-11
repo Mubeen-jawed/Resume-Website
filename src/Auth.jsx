@@ -3,7 +3,7 @@ import { Eye, EyeOff, User, Lock, LogIn, UserPlus } from "lucide-react";
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:3001/api";
+const API_BASE = "https://splendid-trixi-mubeen-jawed-674c9fc8.koyeb.app/api";
 
 function Auth({ onLogin, darkMode }) {
   const [isLogin, setIsLogin] = useState(true);

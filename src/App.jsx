@@ -5,7 +5,7 @@ import "./App.css";
 import "./Auth.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const API_BASE = "http://localhost:3001/api";
+const API_BASE = "https://splendid-trixi-mubeen-jawed-674c9fc8.koyeb.app/api";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);

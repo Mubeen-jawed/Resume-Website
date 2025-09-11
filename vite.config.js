@@ -9,7 +9,7 @@ export default defineConfig({
     host: true,
     proxy: {
       "/api": {
-        target: "http://localhost:3001",
+        target: "https://splendid-trixi-mubeen-jawed-674c9fc8.koyeb.app/",
         changeOrigin: true,
         secure: false,
       },
