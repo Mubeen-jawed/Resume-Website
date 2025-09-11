@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mubeen jawed - Portfolio</title>
+    <meta
+      name="description"
+      content="Mubeen jawed - MVP & SaaS Developer | Building thecloutcloset.com"
+    />
+    <meta
+      name="keywords"
+      content="Mubeen jawed, SaaS, Startup, software engineer, fullstack developer, computer science"
+    />
+    <meta name="author" content="Mubeen jawed" />
+
+    <!-- Open Graph / Facebook -->
+    <!-- <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.yumichael.com/" />
+    <meta property="og:title" content="Michael Yu - Portfolio" />
+    <meta property="og:description" content="Physics & CS @ Stanford. Experience at Context AI, TikTok, Mathos AI, and more." />
+     -->
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- <meta property="twitter:url" content="https://www.yumichael.com/" /> -->
+    <meta property="twitter:title" content="Mubeen jawed - Portfolio" />
+    <meta
+      property="twitter:description"
+      content="MVP & SaaS Developer | Building thecloutcloset.com"
+    />
+
+    <style>
+      /* Prevent flash of unstyled content */
+      body {
+        visibility: hidden;
+      }
+
+      /* Loading state */
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #0066cc;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading">
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Show body once React has loaded
+      window.addEventListener("load", () => {
+        document.body.style.visibility = "visible";
+      });
+    </script>
+  </body>
+</html>
