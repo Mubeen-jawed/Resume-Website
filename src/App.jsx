@@ -5,7 +5,8 @@ import "./App.css";
 import "./Auth.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const API_BASE = "https://splendid-trixi-mubeen-jawed-674c9fc8.koyeb.app/api";
+const API_BASE =
+  "https://thoughtless-arleen-mubeen-jawed-dc2f9845.koyeb.app/api";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -27,58 +28,30 @@ function App() {
     ],
     experiences: [
       {
-        role: "fullstack engineering intern",
-        company: "context ai",
-        companyUrl: "https://www.context.ai",
-        description:
-          "wired frontend components for launch + patched Vercel SDK for prompt caching",
-      },
-      {
-        role: "fullstack engineering intern",
-        company: "redwoodsmb",
+        role: "saas & mvp developer",
+        company: "upwork",
         companyUrl: "#",
         description:
-          "created Go backend and Typescript frontend for startup backed by GC, Lux, KXVC, AV1",
+          "created multiple fullstack admin panel, SaaS and MVPs and derive business from raw ideas.",
       },
       {
-        role: "security software engineering intern",
-        company: "tiktok",
-        companyUrl: "https://www.tiktok.com/",
+        role: "fullstack developer intern",
+        company: "zaavia",
+        companyUrl: "#",
         description:
-          "built a React site demoing TikTok passkey service to Mastercard, AMEX, Starbucks, etc.\nachieved 13x decrease in latency with new Go passkey SDK integration",
-      },
-      {
-        role: "llm research intern",
-        company: "mathos ai",
-        companyUrl: "https://www.mathgptpro.com/",
-        description:
-          "explored agent-based framework for improving LLM accuracy on math problems\nbuilt RAG system achieving 90% peak accuracy for math questions",
+          "created fullstack apps using react, mongoDB, node and train data to automate flow and find insights.",
       },
     ],
     projects: [
       {
-        projectName: "fullstack engineering intern",
-        projectUrl: "https://www.context.ai",
-        description:
-          "wired frontend components for launch + patched Vercel SDK for prompt caching",
+        projectName: "kabutar magazine",
+        projectUrl: "https://kabutarmagazine.com/",
+        description: "student community magazine platform",
       },
       {
-        projectName: "fullstack engineering intern",
-        projectUrl: "https://www.redwoodsmb.com",
-        description:
-          "created Go backend and Typescript frontend for startup backed by GC, Lux, KXVC, AV1",
-      },
-      {
-        projectName: "security software engineering intern",
-        projectUrl: "https://www.tiktok.com/",
-        description:
-          "built a React site demoing TikTok passkey service to Mastercard, AMEX, Starbucks, etc.\nachieved 13x decrease in latency with new Go passkey SDK integration",
-      },
-      {
-        projectName: "llm research intern",
-        projectUrl: "https://www.mathgptpro.com/",
-        description:
-          "explored agent-based framework for improving LLM accuracy on math problems\nbuilt RAG system achieving 90% peak accuracy for math questions",
+        projectName: "thecloutcloset",
+        projectUrl: "https://www.thecloutcloset.com",
+        description: "influencer exclusive thirfting platform",
       },
     ],
   };

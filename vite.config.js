@@ -7,9 +7,10 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true,
+    historyApiFallback: true,
     proxy: {
       "/api": {
-        target: "https://splendid-trixi-mubeen-jawed-674c9fc8.koyeb.app/",
+        target: "https://thoughtless-arleen-mubeen-jawed-dc2f9845.koyeb.app",
         changeOrigin: true,
         secure: false,
       },
@@ -18,8 +19,5 @@ export default defineConfig({
   build: {
     outDir: "dist",
     sourcemap: true,
-  },
-  server: {
-    historyApiFallback: true,
   },
 });
