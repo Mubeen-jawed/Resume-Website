@@ -5,8 +5,8 @@ import "./App.css";
 import "./Auth.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const API_BASE =
-  "https://thoughtless-arleen-mubeen-jawed-dc2f9845.koyeb.app/api";
+// const API_BASE =
+//   "https://thoughtless-arleen-mubeen-jawed-dc2f9845.koyeb.app/api";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,38 +20,63 @@ function App() {
   // Default data structure
   const defaultData = {
     name: "Mubeen jawed",
-    title: "physics & cs @ stanford",
+    title: "mvp & saas developer",
     socialLinks: [
       { name: "github", url: "https://github.com/Mubeen-jawed" },
       { name: "x", url: "https://x.com/jawed_mubeen" },
-      { name: "linkedin", url: "www.linkedin.com/in/mubeejaweddev" },
+      { name: "linkedin", url: "https://linkedin.com/in/mubeejaweddev" },
     ],
     experiences: [
       {
         role: "saas & mvp developer",
         company: "upwork",
-        companyUrl: "#",
-        description:
-          "created multiple fullstack admin panel, SaaS and MVPs and derive business from raw ideas.",
+        companyUrl:
+          "https://www.upwork.com/freelancers/~01b54706f53e1f0a1d?mp_source=share",
+        description: "created multiple fullstack admin panel, SaaS and MVPs.",
       },
       {
-        role: "fullstack developer intern",
+        role: "volunteer: web-dev director",
+        company: "kabutar magazine",
+        companyUrl: "https://kabutarmagazine.com/",
+        description: "student community magazine platform",
+      },
+      {
+        role: "customer service specialist",
+        company: "ibex",
+        companyUrl: "https://www.ibex.co/",
+        description: "handle international customer queries and issues.",
+      },
+      {
+        role: "wev-developer intern",
         company: "zaavia",
-        companyUrl: "#",
+        companyUrl: "https://zaavia.net/",
         description:
           "created fullstack apps using react, mongoDB, node and train data to automate flow and find insights.",
       },
     ],
     projects: [
       {
-        projectName: "kabutar magazine",
-        projectUrl: "https://kabutarmagazine.com/",
-        description: "student community magazine platform",
-      },
-      {
         projectName: "thecloutcloset",
         projectUrl: "https://www.thecloutcloset.com",
         description: "influencer exclusive thirfting platform",
+      },
+      {
+        projectName: "techFolio",
+        projectUrl: "https://techfolio-template.vercel.app/",
+        description: "Open-source portfolio template for professinals",
+      },
+
+      {
+        projectName: "orderly",
+        projectUrl: "https://orderly-frontend-six.vercel.app/",
+        description:
+          "built simple food ordering app for  local restaurants and carts",
+      },
+
+      {
+        projectName: "ultimate Diary",
+        projectUrl: "https://diary-sandy.vercel.app/",
+        description: "All in one Notes Tracker and Diary app",
       },
     ],
   };

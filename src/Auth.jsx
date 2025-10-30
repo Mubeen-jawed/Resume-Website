@@ -104,10 +104,6 @@ function Auth({ onLogin, darkMode }) {
     setErrors({});
   };
 
-  const handleClick = () => {
-    useNavigate("/");
-  };
-
   return (
     <div className={`auth-overlay ${darkMode ? "dark" : ""}`}>
       <div className="auth-container">
@@ -197,12 +193,7 @@ function Auth({ onLogin, darkMode }) {
               </div>
             )}
 
-            <button
-              onClick={handleClick}
-              type="submit"
-              className="auth-button"
-              disabled={loading}
-            >
+            <button type="submit" className="auth-button" disabled={loading}>
               {loading ? (
                 <div className="button-spinner"></div>
               ) : (
