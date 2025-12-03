@@ -35,17 +35,24 @@ function App() {
         description: "created multiple fullstack admin panel, SaaS and MVPs.",
       },
       {
-        role: "volunteer: web-dev director",
-        company: "kabutar magazine",
-        companyUrl: "https://kabutarmagazine.com/",
-        description: "student community magazine platform",
+        role: "debugging and product quality",
+        company: "purelyHR",
+        companyUrl: "purelyhr.com",
+        description:
+          "enhance UI, fix user flow and optimize the overall product",
       },
-      {
-        role: "customer service specialist",
-        company: "ibex",
-        companyUrl: "https://www.ibex.co/",
-        description: "handle international customer queries and issues.",
-      },
+      // {
+      //   role: "volunteer: web-dev director",
+      //   company: "kabutar magazine",
+      //   companyUrl: "https://kabutarmagazine.com/",
+      //   description: "student community magazine platform",
+      // },
+      // {
+      //   role: "customer service specialist",
+      //   company: "ibex",
+      //   companyUrl: "https://www.ibex.co/",
+      //   description: "handle international customer queries and issues.",
+      // },
       {
         role: "wev-developer intern",
         company: "zaavia",
@@ -60,24 +67,30 @@ function App() {
         projectUrl: "https://www.thecloutcloset.com",
         description: "influencer exclusive thirfting platform",
       },
+
+      {
+        projectName: "kabutar magazine",
+        projectUrl: "https://kabutarmagazine.com/",
+        description: "student community magazine platform",
+      },
+      {
+        projectName: "AI-portfolio manager (building)",
+        projectUrl: "#",
+        description:
+          "Android mobile app which predicts stocks price based on news and trends",
+      },
+
       {
         projectName: "techFolio",
         projectUrl: "https://techfolio-template.vercel.app/",
         description: "Open-source portfolio template for professinals",
       },
 
-      {
-        projectName: "orderly",
-        projectUrl: "https://orderly-frontend-six.vercel.app/",
-        description:
-          "built simple food ordering app for  local restaurants and carts",
-      },
-
-      {
-        projectName: "ultimate Diary",
-        projectUrl: "https://diary-sandy.vercel.app/",
-        description: "All in one Notes Tracker and Diary app",
-      },
+      // {
+      //   projectName: "ultimate Diary",
+      //   projectUrl: "https://diary-sandy.vercel.app/",
+      //   description: "All in one Notes Tracker and Diary app",
+      // },
     ],
   };
 
